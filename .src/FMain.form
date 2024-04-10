@@ -1,0 +1,18 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,77,25)
+  { TextBox1 TextBox
+    MoveScaled(1,8,74,4)
+    Text = ("python -m pip install palworld-save-tools==0.22.0 --break-system-packages")
+    ReadOnly = True
+  }
+  { Label1 Label
+    MoveScaled(4,4,44,3)
+    Text = ("This Tool Need this Lib to work Please install it")
+  }
+  { Button1 Button
+    MoveScaled(59,18,16,4)
+    Text = ("ok")
+  }
+}
